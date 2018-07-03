@@ -1,0 +1,32 @@
+steps to create node.js application.
+
+create a project folder;
+run terminal;
+run command npm init; //to create package.json file
+  then follow on screen instructions;
+edit test: to start:'node app';
+install express (backend framework for node.js)
+initialize express in the app.js file
+make the app listen to a port
+install template engine(pug/jade, ejs etc)
+
+
+Bower (front-end package manager)
+npm install -g bower
+
+create .bowerrc file if you want to use custom path for storing bower components then put { "directory":'<path to folder>' } (e.g. public/bower_components)
+
+// to install packages
+bower install bootstrap
+
+
+***************************************
+
+Chat APP
+
+user will register
+user can login
+user adds/connects to another user
+user can send message
+user can receive message
+real time receiving of messages
